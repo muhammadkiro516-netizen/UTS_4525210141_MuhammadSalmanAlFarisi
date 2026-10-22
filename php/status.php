@@ -1,6 +1,7 @@
 <?php
+
 enum StatusBayar: string
 {
-case Lunas = "Udah Lunas Bosku";
-case Belum = "Belum Bayar Nih Bosku";
+    case Lunas = "Lunas";
+    case Belum = "Belum Bayar";
 }
